@@ -86,7 +86,7 @@ PM_START_TEXT = """
 *ʜᴇʏ* {}  
 
 *๏ ᴛʜɪs ɪs* {} !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ sᴏɴɢ ᴊɪɴ-ᴡᴏᴏ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ  ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ sᴜɴɢ ᴊɪɴ-ᴡᴏᴏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ  ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
 *๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
 """
@@ -386,7 +386,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="SUPPORT", callback_data="Jarvis_support"),
+                        InlineKeyboardButton(text="DETAILS", callback_data="Jarvis_support"),
                         InlineKeyboardButton(text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"),
                     ],
                     [
