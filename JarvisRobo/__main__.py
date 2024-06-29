@@ -386,7 +386,7 @@ def Jarvis_about_callback(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="DETAILS", callback_data="Jarvis_support"),
+                        InlineKeyboardButton(text="SUPPORT", callback_data="Jarvis_support"),
                         InlineKeyboardButton(text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"),
                     ],
                     [
