@@ -10,17 +10,17 @@ from telethon import __version__ as tver
 from JarvisRobo import SUPPORT_CHAT, pbot, BOT_USERNAME, OWNER_ID, BOT_NAME, START_IMG
 
 # Video URL
-VIDEO_URL = "https://graph.org/file/b3b4c0296eb557d47bd0a.mp4"
+VIDEO_URL = "https://graph.org/file/191d0779b076df3ecbbe5.mp4"
 
 # Inline keyboard markup
 Jarvis = [
     [
-        InlineKeyboardButton(text="ᴊᴀʀᴠɪs", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/IMPERILMENT_SUPPORT"),
+        InlineKeyboardButton(text="NETWORK", url=f"https://t.me/EMXES_NETWORK"),
+        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/Flex_Support_Chat"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ➕",
+            text="🎐 ᴀᴅᴅ ᴍᴇ 🎐",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -36,23 +36,23 @@ async def send_alive_message(client, message: Message):
 
     # Send the video
     await message.delete()
-    accha = await message.reply("📲")
+    accha = await message.reply("🦋")
     await asyncio.sleep(0.2)
-    await accha.edit("Jᴀʀᴠɪs ᴄᴀᴄʜɪɴɢ ᴅᴀᴛᴀ..")
+    await accha.edit("sᴜɴɢ ᴊɪɴ-ᴡᴏᴏ ᴄᴀᴄʜɪɴɢ ᴅᴀᴛᴀ..")
     await asyncio.sleep(0.1)
     await accha.edit("ᴄᴏʀᴇ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...")
     await asyncio.sleep(0.1)
-    await accha.edit("ᴊᴀʀᴠɪs 🔮 ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("sᴜɴɢ ᴊɪɴ-ᴡᴏᴏ 🔮 ᴀʟɪᴠɪɴɢ..")
     await accha.delete()
     await asyncio.sleep(0.3)
-    umm = await message.reply_sticker("CAACAgEAAx0Cfbdm0QACATVmC-2FuLpqFS0KfIHldXuM8eTtjwACsQQAAsW0uURrdxdu_gmoNh4E")
+    umm = await message.reply_sticker("CAACAgUAAxkBAAEMZ25mgQ_Fn1FDQgFpvbjdb3DnTDlG7QAC5hEAApN3CFRD0RmIik653TUE")
     await umm.delete()
     await asyncio.sleep(0.2)
     await message.reply_video(
         video=video_file_path,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
 ━━━━━━━━━━━━━━━━━━━
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](https://t.me/ROHIT_LEGEND)
+» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](https://t.me/Qweibie)
 
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 
