@@ -6,7 +6,7 @@ class Config(object):
 
     API_ID = "26778642" # integer value, dont use ""
     API_HASH = "6ad48c8acff7a66f149f7203eaa73503"
-    TOKEN = "7230167851:AAHOhwqecHeu6gUBuoWQ0Y8q-23uwRHVXRk"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "7230167851:AAHygh_cby4W8O1e0yhHTF3INSW7BtaR8WE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "5702598840" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "Flex_Support_Chat"  # Your own group for support, do not add the @
@@ -15,7 +15,7 @@ class Config(object):
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://dracogameing1:wjjwhbwbwbbwggsuegv646468181nnwjwjuhh6wjwika@cluster0.80xb4d0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     # RECOMMENDED
-    DATABASE_URL = "postgres://oaykvtmj:bsIGPV7wmId1x1CNH9eqxQVX5t25cHI3@manny.db.elephantsql.com/oaykvtmj"  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://u27r7bsjjnenom:p94b44ab96313c5e4dd428c4000da3bd18d638b19eb1a9548bbe09a2ec25feedc@ccpa7stkruda3o.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3ts7j79iqrrj5"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
         "X652FNVGJ0ZXABM0"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
