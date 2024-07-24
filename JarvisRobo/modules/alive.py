@@ -52,15 +52,13 @@ async def send_alive_message(client, message: Message):
         video=video_file_path,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
 ━━━━━━━━━━━━━━━━━━━
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](https://t.me/Qweibie)
+⌬ **ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ᴢxᴄ](https://t.me/Qweibie)
 
-» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
+⌬ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
+⌬ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 
-» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-
-» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-
-» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
+⌬ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
+⌬ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
 ━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(Jarvis),
     )
